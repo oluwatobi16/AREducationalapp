@@ -1,0 +1,60 @@
+<resources>
+    <!--Multi page strings-->
+    <string name="app_name">IBMAReducationalapp</string>
+    <string name="ibm_AR_Educational_app">IBM AR Educational App</string>
+    <string name="ibmlogo">ibmlogo</string>
+    <!--Login and registration strings-->
+    <string name="username">Name</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="loginbutton">Login</string>
+    <string name="not_signed_up">Not yet signed up?, register below</string>
+    <string name="register">Register</string>
+    <string name="university_email">University Email</string>
+    <string name="academic_subject">Academic Subject</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_registered">Already Registered? Go to login page </string>
+    <string name="back_to_login">Back to Login</string>
+    <!--Intro strings-->
+    <string name="intro_title">Introduction of how to use: </string>
+    <string name="open_camera">Open The Camera</string>
+    <string name="logo_description">Company Logo</string>
+    <string name="intro_page_title">Intro Page</string>
+    <string name="intro_text">Once you reach an AR location:.\n- Face the building.\n- Aim the camera at the surface in front of the building.\n- Press open the camera.\n- Enjoy viewing the AR elements.\n- Current locations: TLC, Engineering building, Bill Bryson Library</string>
+    <string name="upload_question">Interact with courses below</string>
+    <!--Upload Strings-->
+    <string name="upload_course_title">Upload Course Form</string>
+    <string name="Courses">Courses</string>
+    <string name="Form_coursename">Course name</string>
+    <string name="Form_courselink">Course link</string>
+    <string name="Form_coursedescription">Course description</string>
+    <string name="Form_explain">To upload an IBM skills build course to this app, please fill out this form,
+        inputting the name of the course, the link to the course and a brief description of the course.</string>
+    <string name="Uploadcourse">Upload courses</string>
+    <string name="BacktoIntro">Back to intropage</string>
+    <string name="course_upload_thank_you">Course uploaded</string>
+    <string name="character_count">Character count: %d</string>
+    <!--Course Review Strings-->
+    <string name="course_review_page_title">Course Review Page</string>
+    <string name="coursereviewinfo">This page allows you to contribute to the app directly by rating the courses on the page.
+    You will be able to see the average rating of each course.</string>
+    <string name="hint_searchable_spinner">Searchable Spinner</string>
+    <string name="button_label_java">Java</string>
+    <string name="search">Search</string>
+    <string name="Courseinteract">Interact with courses below by either adding your own or reviewing the courses here.</string>
+    <string name="Upload_a_course">Upload courses</string>
+    <string name="Rate_and_Review_courses">Review Courses</string>
+    <string name="selected_course_placeholder">Selected Course: %s</string>
+    <string name="Link_placeholder">Course Link: %s</string>
+    <string name="Description_placeholder">Course Description: %s</string>
+    <string name="course_review_title">Course Review</string>
+    <string name="search_hint">Search courses...</string>
+    <string name="selected_course_details">Selected Course Details</string>
+    <string name="submit_review">Submit Review</string>
+
+    <string name="review_text_hint">Enter your review here...</string>
+
+
+
+
+</resources>

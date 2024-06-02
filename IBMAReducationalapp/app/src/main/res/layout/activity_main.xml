@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="16dp"
+    >
+
+
+    <!-- Title TextView -->
+
+    <!-- Username EditText -->
+
+    <ImageView
+        android:id="@+id/ibm_logo"
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/ibmlogo"
+        android:src="@drawable/ibmlogo" />
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:text="@string/ibm_AR_Educational_app"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#0078D4"
+        android:shadowColor="#CCCCCC"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="3"
+        android:letterSpacing="0.05"
+        android:lineSpacingExtra="8dp"
+        android:textAlignment="center"
+        android:textAllCaps="true" /> <!-- Convert text to uppercase -->
+
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:autofillHints=""
+        android:hint="@string/username"
+        android:inputType="text"
+        android:textColorHint="#546E7A" />
+
+    <!-- Password EditText -->
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:autofillHints=""
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textColorHint="#546E7A" />
+
+    <!-- Login Button -->
+
+    <Button
+        android:id="@+id/buttonLogin"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0068A8"
+        android:text="@string/login"
+        android:textColor="@color/white" />
+
+    <!-- Text above Register Button -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/not_signed_up"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="center_horizontal" />
+
+    <!-- Register Button -->
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:textColor="@color/white"
+        android:backgroundTint="#0068A8" />
+
+
+</LinearLayout>
